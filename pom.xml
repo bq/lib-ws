@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>io.corbel.lib</groupId>
+  <groupId>com.bq.corbel.lib</groupId>
   <artifactId>ws</artifactId>
   <version>0.21.0-SNAPSHOT</version>
   <name>ws</name>
   <description>Library to create Java Web Services</description>
-  <url>https://github.com/corbel-platform/lib-ws</url>
+  <url>https://github.com/bq/lib-ws</url>
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
@@ -25,7 +25,7 @@
   <scm>
     <connection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/lib-ws</connection>
     <developerConnection>scm:git:ssh://bq-devtools@git.dev.bqsoftware.net:29418/lib-ws</developerConnection>
-    <url>https://github.com/corbel-platform/lib-ws</url>
+    <url>https://github.com/bq/lib-ws</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
@@ -37,32 +37,32 @@
   </distributionManagement>
   <dependencies>
     <dependency>
-      <groupId>io.corbel</groupId>
+      <groupId>com.bq.corbel</groupId>
       <artifactId>events</artifactId>
       <version>1.27.0</version>
     </dependency>
     <dependency>
-      <groupId>io.corbel.lib</groupId>
+      <groupId>com.bq.corbel.lib</groupId>
       <artifactId>config</artifactId>
       <version>0.3.0</version>
     </dependency>
     <dependency>
-      <groupId>io.corbel.lib</groupId>
+      <groupId>com.bq.corbel.lib</groupId>
       <artifactId>token</artifactId>
       <version>0.8.0</version>
     </dependency>
     <dependency>
-      <groupId>io.corbel.lib</groupId>
+      <groupId>com.bq.corbel.lib</groupId>
       <artifactId>queries-api</artifactId>
       <version>0.15.0</version>
     </dependency>
     <dependency>
-      <groupId>io.corbel.lib</groupId>
+      <groupId>com.bq.corbel.lib</groupId>
       <artifactId>cli</artifactId>
       <version>0.4.0</version>
     </dependency>
     <dependency>
-      <groupId>io.corbel.lib</groupId>
+      <groupId>com.bq.corbel.lib</groupId>
       <artifactId>rabbitmq</artifactId>
       <version>0.9.0</version>
     </dependency>
@@ -243,10 +243,10 @@
   </profiles>
   <ciManagement>
     <system>Travis CI</system>
-    <url>https://travis-ci.org/corbel-platform/lib-ws</url>
+    <url>https://travis-ci.org/bq/lib-ws</url>
   </ciManagement>
   <issueManagement>
-    <url>https://github.com/corbel-platform/lib-ws/issues</url>
+    <url>https://github.com/bq/lib-ws/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
   <developers>
