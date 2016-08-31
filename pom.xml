@@ -20,6 +20,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <dropwizard.version>0.8.1</dropwizard.version>
+    <dropwizard-metrics-influxdb.version>1.1.7</dropwizard-metrics-influxdb.version>
     <spring.version>4.2.6.RELEASE</spring.version>
   </properties>
   <scm>
@@ -89,6 +90,11 @@
       <artifactId>dropwizard-testing</artifactId>
       <version>${dropwizard.version}</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.izettle</groupId>
+      <artifactId>dropwizard-metrics-influxdb</artifactId>
+      <version>${dropwizard-metrics-influxdb.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
