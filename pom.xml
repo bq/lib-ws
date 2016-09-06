@@ -91,11 +91,11 @@
       <version>${dropwizard.version}</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>com.izettle</groupId>
-      <artifactId>dropwizard-metrics-influxdb</artifactId>
-      <version>${dropwizard-metrics-influxdb.version}</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>com.izettle</groupId>-->
+      <!--<artifactId>dropwizard-metrics-influxdb</artifactId>-->
+      <!--<version>${dropwizard-metrics-influxdb.version}</version>-->
+    <!--</dependency>-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
