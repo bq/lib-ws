@@ -20,7 +20,6 @@ import java.util.Optional;
  * @author Alexander De Leon
  */
 @Configuration
-@Import({DropwizardMetricsIoc.class})
 public class DropwizardIoc {
 
     @Autowired
